@@ -10,6 +10,9 @@ env/
 # C extensions
 *.so
 
+# Test files
+app.py
+
 # Distribution / packaging
 .Python
 build/
