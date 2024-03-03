@@ -48,4 +48,4 @@ def pfs_25(nipple1, nipple2):
 def pmux_2(nipple1, nipple2, selector):
 	selector_a = pand_25(nipple1, selector)
 	selector_b = pand_25(nipple2, pn_25(selector))
-	result = por_25(selector_a, selector_b)
+	return por_25(selector_a, selector_b)
