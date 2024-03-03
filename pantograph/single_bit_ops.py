@@ -13,6 +13,9 @@ def pxor_1(bit1, bit2):
 def por_1(bit1, bit2):
     return pn(pand_1(pn(bit1),pn(bit2)))
 
+def pnor_1(bit1, bit2):
+    return pn(por_1(bit1,bit2))
+
 def pha_1(bit1, bit2):
     sum = pxor_1(bit1, bit2)
     carry = pand_1(bit1, bit2)

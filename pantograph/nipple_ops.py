@@ -25,6 +25,13 @@ def por_25(nipple1, nipple2):
         nipple3[i] = por_1(nipple1[i],nipple2[i])
     return nipple3
 
+def pnor_25(nipple1, nipple2):
+    nipple3 = get_empty_nipple() 
+    for i in range(25):
+        nipple3[i] = pnor_1(nipple1[i],nipple2[i])
+    return nipple3
+
+
 def pxor_25(nipple1, nipple2):
     nipple3 = get_empty_nipple() 
     for i in range(25):
