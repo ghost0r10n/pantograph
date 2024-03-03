@@ -1,8 +1,8 @@
 def pn(bit1):
-    return "1" if bit1=="0" else "0"
+    return 1 if bit1==0 else 0
 
 def pand_1(bit1, bit2):
-    return "1" if bit1=="1" and bit2=="1" else "0"
+    return 1 if bit1==1 and bit2==1 else 0
 
 def pnand_1(bit1, bit2):
     return pn(pand_1(bit1,bit2))
